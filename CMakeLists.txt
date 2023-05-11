@@ -12,9 +12,9 @@ set(includes "example"
 if(CONFIG_ESP_FREETYPE_EXAMPLE_LVGL)
     idf_component_register(SRCS ${srcs}
                         INCLUDE_DIRS ${includes}
-                        REQUIRES esp-idf-components)
+                        REQUIRES lvgl)
 else()
-    idf_component_register(INCLUDE_DIRS ${includes} REQUIRES esp-idf-components)
+    idf_component_register(INCLUDE_DIRS ${includes})
 endif()
 
 if(CONFIG_IDF_TARGET_ESP32)
