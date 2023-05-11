@@ -1,0 +1,11 @@
+menu "FreeType"
+
+    config ESP_FREETYPE_EXAMPLE_LVGL
+        depends on LV_USE_FREETYPE
+        bool "Use LVGL example freetype"
+        default "n"
+
+        help
+            Forum: https://forums.100ask.net
+
+endmenu  # FreeType
