@@ -6,6 +6,10 @@
 
 You can obtain corresponding usage examples in the example directory.
 
+Please note this before use:
+
+![note](https://forum.lvgl.io/uploads/default/original/2X/6/66b04f421b4a899ca7c3e0c35d231b9d4c1ca6de.png)
+
 # Forum
 
 [https://forums.100ask.net](https://forums.100ask.net)
